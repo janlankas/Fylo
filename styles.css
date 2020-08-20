@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(229, 57%, 11%);
+    color: white;
+    font-family: "Raleway", sans-serif;
+}
+h3 {
+    font-size: 1rem;
+}
+p {
+    display: inline-block;
+}
+.logo{
+    margin-bottom: 35px;
+    max-height: 60%;
+    max-width: 100%;
+} 
+.bg-desktop {
+    margin-top: 200px;
+    position: static;
+    width: 100%;
+}
+
+.brand {
+    position: absolute;
+    background-color: hsl(228, 56%, 26%);
+    height: 180px;
+    width: 300px;
+    top: 150px;
+    left: 300px;
+    border-radius: 10px 100px 10px 10px;
+}
+.text-brand {
+    margin: 30px 0 0 30px;
+}
+.gb {
+    position: absolute;
+    background-color: hsl(228, 56%, 26%);
+    height: 180px;
+    width: 550px;
+    top: 150px;
+    left: 630px;
+    border-radius: 10px;
+}
+
+.text-gb {
+    margin: 30px;
+}
+
+.under-logo {
+    background-color: hsl(229, 57%, 11%);
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+
+.progress-box {
+    position: absolute;
+    height: 14px;
+    width: 480px;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 15px;
+    margin: 10px 0 10px 0;
+}
+
+.color-box {
+    position: absolute;
+    height: 13px;
+    width: 400px;
+    background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    border-radius: 15px;
+}
+
+.white-box {
+    position: absolute;
+    right: 0;
+    height: 12px;
+    width: 12px;
+    background-color: white;
+    border-radius: 15px;
+    
+}
+.start {
+    position: absolute;
+    left: 30px;
+    top: 90px;
+}
+
+.finish {
+    position: absolute;
+    right: 30px;
+    top: 90px;
+}
